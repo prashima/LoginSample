@@ -1,0 +1,27 @@
+<html>
+	<head>		
+		<link rel='stylesheet' href='stylesheets/bootstrap.min.css'>
+		<title>User Registration</title>
+		<p>{{flash.error}}</p>
+	</head>
+	<body>
+
+		<div>
+			<form method="post" action="/register" enctype="application/x-www-form-urlencoded">
+				<label for="name">Name*</label>
+				<input type="text" id="name" name="name"/> <br>
+				<label for="username">Username*</label>
+				<input type="text" id="username" name="username"/> <br>
+				<label for="password">Password*</label>
+				<input type="password" id="password" name="password"/> <br>
+				<label for="email">Email*</label>
+				<input type="email" id="email" name="email"/> <br>
+				<label for="phone">Phone</label>
+				<input type="text" id="phome" name="phone"/> <br>
+				<label for="address">Address</label>
+				<input type="text" id="address" name="address"/> <br>
+				<input type="submit" value="Register">
+			</form>
+		</div>
+	</body>
+</html>

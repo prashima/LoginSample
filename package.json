@@ -1,0 +1,15 @@
+{
+	"name": "LoginSample",
+    "description": "Sample app for login and user registration.",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "3.x",
+		"hbs": "*",
+		"passport": "*",
+		"passport-local": "*",
+		"mongodb": "*",
+		"mongoose": "~3.6.4",
+		"crypto": "*",
+		"connect-flash": "*"
+    }
+}
