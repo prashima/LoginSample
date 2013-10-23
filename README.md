@@ -2,6 +2,7 @@ User login and registration
 
 
 This is a small sample user login and registration project. It has following usecases :
+
 1. Login 
  - User should enter username and password to login
  - Only existing users with valid username and password can login
@@ -22,13 +23,21 @@ Framework User:
 - Mongoose, for connection and operation with MongoDB
 - Passport, for authentication purpose
 
-References: 
-http://danialk.github.io/blog/2013/02/23/authentication-using-passportjs/
-http://passportjs.org/guide/authenticate/
-http://evanhahn.com/understanding-express-js/
-http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/
-http://stackoverflow.com/questions/8051631/creating-registration-and-login-form-in-node-js-and-mongodb
-http://dailyjs.com/2010/12/06/node-tutorial-5/
+Usage: 
+- Download the source code
+- Navigate to project folder, which should have package.json
+- Run > npm install
+- 'localhost:3000/' or 'localhost:3000/login' to go to login page
+- 'localhost:3000/register' to go to registration page or click 'New User?' link on login page
+- 'localhost:3000/welcome' to go to welcome page. Incase of invalid session user will be redirected to the login page
+
+References:
+- http://danialk.github.io/blog/2013/02/23/authentication-using-passportjs/
+- http://passportjs.org/guide/authenticate/
+- http://evanhahn.com/understanding-express-js/
+- http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/
+- http://stackoverflow.com/questions/8051631/creating-registration-and-login-form-in-node-js-and-mongodb
+- http://dailyjs.com/2010/12/06/node-tutorial-5/
 
 TODOs:
 - Flash messages for erros are not working currently, need to fix that
