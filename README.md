@@ -24,9 +24,10 @@ Framework User:
 - Passport, for authentication purpose
 
 Usage: 
+- Pre-requisit: Node.js should be installed (tested with Node.js v0.10.21 on chrome Version 30.0.1599.101 m) 
 - Download the source code
-- Navigate to project folder, which should have package.json
-- Run > npm install
+- Navigate to project folder, which should have app.js
+- Run > node app
 - 'localhost:3000/' or 'localhost:3000/login' to go to login page
 - 'localhost:3000/register' to go to registration page or click 'New User?' link on login page
 - 'localhost:3000/welcome' to go to welcome page. Incase of invalid session user will be redirected to the login page
